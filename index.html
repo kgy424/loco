@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locomotive</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div data-scroll-container>
+        <header data-scroll-section>
+            <div class="container">
+                <div id="menu">
+                    <div class="menu clearfix">
+                        <div class="menu_left" data-scroll data-scroll-direction="horizontal" data-scroll-position="top"
+                            data-scroll-speed="-2">
+                            <a href="#">LOCOMOTIVE.GY</a>
+                        </div><!-- //.menu_left -->
+
+                        <div class="menu_right" data-scroll data-scroll-direction="horizontal"
+                            data-scroll-position="top" data-scroll-speed="-2">
+                            <a href="#">⚾ V4-EDITION ⚾</a>
+                        </div><!-- //.menu_right -->
+                    </div>
+                </div><!-- //.menu -->
+
+                <h1 class="title" data-scroll>
+
+                    <span class="c_header_title_line">
+                        <span>Locomotive</span>
+                    </span>
+
+                    <span class="c_header_title_line">
+                        <span>Scroll</span>
+                    </span>
+
+                    <div class="tit_last c_header_title_line">
+                        <span data-scroll data-scroll-position="top" data-scroll-speed="1"
+                            data-scroll-delay="0.05">V</span>
+
+                        <span data-scroll data-scroll-position="top" data-scroll-speed="-2"
+                            data-scroll-delay="0.05">4</span>
+
+                        <span data-scroll data-scroll-position="top" data-scroll-speed="5.4"
+                            data-scroll-delay="0.05">.</span>
+
+                        <span data-scroll data-scroll-position="top" data-scroll-speed="1.7"
+                            data-scroll-delay="0.05">0</span>
+                    </div><!-- //.tit_last -->
+                </h1><!-- //.title -->
+
+                <hr class="line" data-scroll data-scroll-offset="100">
+            </div><!-- //.container -->
+        </header>
+
+        <section class="two" data-scroll-section>
+            <div class="container clearfix">
+                <div class="two_L">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ea, beatae, dicta
+                        doloribus obcaecati quod eveniet quas numquam maxime ut odit cum asperiores voluptas velit,
+                        similique aliquid. Libero repudiandae est aut consequuntur error ex!</p>
+                </div>
+
+                <div class="two_R">
+                    <ul>
+                        <li data-scroll>
+                            <a href="#three" data-scroll-to>01. Speed Control <span>🛰️</span></a>
+                        </li>
+                        <li data-scroll>
+                            <a href="#four" data-scroll-to>02.Scroll Direction <span>🛰️</span></a>
+                        </li>
+                        <li data-scroll>
+                            <a href="#five" data-scroll-to>03.Lerp Effect <span>🛰️</span></a>
+                        </li>
+                        <li data-scroll>
+                            <a href="#" data-scroll-to>04.Fixed Elements <span>🛰️</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section><!-- //.two -->
+
+        <section id="three" class="three" data-scroll-section>
+            <div class="container">
+                <div class="three-1 clearfix">
+                    <div class="left1">
+                        <div data-scroll>
+                            <div class="infos_inner" data-scroll>
+                                <h3>01. <br> Speed Control</h3>
+                                <div class="infos_text">
+                                    <p> Each element can be animated at a different speed. You get to choo-choo-choose!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- //.left1 -->
+
+                    <div class="right1">
+                        <div class="r1_sub" data-scroll data-scroll-speed="2">
+                            <div class="o-image_wrapper" data-scroll>
+                                <div class="o-image" data-scroll>
+                                    <img src="images/locomotive01.jpg" alt="locomotive">
+                                </div><!-- o-image -->
+                                <p data-scroll class="c-speed-block_title">
+                                    Speed x2
+                                </p>
+                            </div><!-- o-image_wrapper -->
+                            <span class="c-speed-block_bubble" data-scroll data-scroll-repeat data-scroll-speed="4">
+                                4x
+                            </span>
+                        </div>
+                    </div><!-- //.right1 -->
+
+                </div><!-- //.three-1 -->
+
+                <div class="three-2">
+                    <div data-scroll data-scroll-speed="4">
+                        <div class="o-image_wrapper" data-scroll>
+                            <div class="o-image" data-scroll data-scroll-speed="-1.5">
+                                <img src="images/locomotive02.jpg" alt="02">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //.three-2 -->
+            </div><!-- //.container -->
+        </section><!-- //.three -->
+
+        <section class="four" id="four" data-scroll-section>
+            <div class="container" id="scroll-direction" data-scroll-direction>
+                <div class="four-height">
+
+                    <div class="four-text" data-scroll data-scroll-sticky data-scroll-target="#scroll-direction">
+                        <h3>02. <br> Scroll Direction</h3>
+                        <div class="infos_text">
+                            <p>And if that wasn't enough,
+                                make 'em go backwards.
+                                Or upwards. Or downwards!</p>
+                        </div><!-- //.infos_text -->
+                    </div><!-- //.four-text -->
+
+                    <div class="c-direction-block" id="direction">
+                        <div class="c-direction-block_item one1">
+                            <span data-scroll data-scroll-speed="6" data-scroll-direction="horizontal"
+                                data-scroll-target="#direction">I'm moving in this
+                                direction</span>
+                        </div>
+
+                        <div class="c-direction-block_item two2">
+                            <span data-scroll data-scroll-speed="-8" data-scroll-direction="horizontal"
+                                data-scroll-delay="0.05" data-scroll-target="#direction">And in this direction</span>
+                        </div>
+
+                        <div class="c-direction-block_item three3">
+                            <span data-scroll data-scroll-direction="horizontal" data-scroll-speed="9"
+                                data-scroll-target="#direction" data-scroll-delay="0.05">
+                                Sooo customizable. Right?
+                            </span>
+                        </div><!-- //three3 -->
+                        <div class="c-direction-block_item four4">
+                            <span data-scroll data-scroll-direction="horizontal" data-scroll-speed="15"
+                                data-scroll-target="#direction">
+                                I can also go in this direction
+                            </span>
+                        </div><!-- //four4 -->
+                        <div class="c-direction-block_item five5">
+                            <span data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20"
+                                data-scroll-target="#direction" data-scroll-delay="0.05">
+                                Ok, enough!!!!
+                            </span>
+                        </div><!-- //five5 -->
+                    </div><!-- //.c-direction-block -->
+                </div><!-- //.four-height -->
+
+            </div><!-- //.container -->
+        </section><!-- //.four -->
+
+        <section class="five" id="five" data-scroll-section>
+            <div class="container" id="lerp-effect">
+
+                <div class="five_L">
+                    <div class="five_text" data-scroll>
+                        <div class="infos_inner" data-scroll>
+                            <h3>03.<br>Lerp Elements</h3>
+                            <div class="infos_text">
+                                <p> Stagger those smooth animations
+                                    using delays to create a
+                                    rushing or dragging effect.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //.five_L -->
+
+                <div class="five_R">
+                    <div class="lerp-block" data-scroll>
+                        <span class="lerp-block_index" data-scroll data-scroll-speed="6" data-scroll-delay="0.2"
+                            data-scroll-repeat>01</span>
+                        <span class="lerp-block_tit" data-scroll data-scroll-speed="6" data-scroll-delay="0.2"
+                            data-scroll-repeat>
+                            <span>I haave a Lerp.</span>
+                        </span>
+                    </div><!-- //.lerp-block -->
+                    <div class="lerp-block" data-scroll>
+                        <span class="lerp-block_index" data-scroll data-scroll-speed="6" data-scroll-delay="0.2"
+                            data-scroll-repeat>02</span>
+                        <span class="lerp-block_tit" data-scroll data-scroll-speed="6" data-scroll-delay="0.6"
+                            data-scroll-repeat>
+                            <span>Mee too!<br>And even more</span>
+                        </span>
+                    </div><!-- //.lerp-block -->
+                    <div class="lerp-block" data-scroll>
+                        <span class="lerp-block_index" data-scroll data-scroll-speed="6" data-scroll-delay="0.2"
+                            data-scroll-repeat>03</span>
+                        <span class="lerp-block_tit" data-scroll data-scroll-speed="6" data-scroll-delay="1"
+                            data-scroll-repeat>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.13">B</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.12">B</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.11"> </span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.1">L</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.09">E</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.08">T</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.07">T</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.06">E</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.05">R</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.04">s</span>
+                            <span data-scroll data-scroll-speed="6" data-scroll-delay="0.03">~</span>
+                        </span>
+                    </div><!-- //.lerp-block -->
+                </div><!-- //.five_R -->
+
+            </div><!-- //.container -->
+        </section><!-- //.five -->
+
+        <div class="space" style="height: 30vh;"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+        });
+    </script>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
